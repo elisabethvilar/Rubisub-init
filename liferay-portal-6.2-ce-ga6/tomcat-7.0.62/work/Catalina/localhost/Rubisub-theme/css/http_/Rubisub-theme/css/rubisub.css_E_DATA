@@ -1,0 +1,74 @@
+@CHARSET "ISO-8859-1";
+.aui .navbar .nav > li > a {
+  text-shadow: none; }
+
+.aui .navbar .nav > li > a:hover {
+  color: white; }
+
+.aui #navigation .nav li.active > a, .modify-pages li:hover {
+  background-color: #fb9203;
+  color: white;
+  text-transform: uppercase; }
+
+.modify-pages li {
+  float: left;
+  background-color: #0066b3;
+  list-style: none;
+  margin: 1px;
+  text-align: center; }
+  .modify-pages li a {
+    color: white !important;
+    text-transform: uppercase; }
+
+.dockbar-messages {
+  display: none; }
+
+.navbar-inner {
+  border-width: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  padding: 0 !important; }
+
+.breadcrumb {
+  background: transparent !important; }
+
+.site-title {
+  display: none; }
+
+.aui .rubisubNavigation.site-navigation ul.nav.nav-collapse {
+  width: 100%;
+  margin: 0; }
+  .aui .rubisubNavigation.site-navigation ul.nav.nav-collapse > li {
+    text-align: center;
+    width: 16.4%;
+    text-transform: uppercase; }
+
+.aui body {
+  font-family: 'Open Sans', sans-serif; }
+
+.topHome {
+  display: table; }
+  .topHome > div {
+    display: table-cell;
+    padding-right: 20px;
+    box-sizing: border-box; }
+    .topHome > div .nameTop {
+      font-size: 2.3em;
+      font-weight: bold;
+      line-height: 50px; }
+    .topHome > div > div {
+      font-size: 1.3em; }
+  .topHome .redesSociales {
+    position: absolute;
+    top: 21%;
+    right: 7%; }
+    .topHome .redesSociales img {
+      padding: 0 2%;
+      box-sizing: border-box; }
+
+.footer {
+  background-color: #0066b3;
+  color: white;
+  padding: 3%;
+  box-sizing: border-box; }
+

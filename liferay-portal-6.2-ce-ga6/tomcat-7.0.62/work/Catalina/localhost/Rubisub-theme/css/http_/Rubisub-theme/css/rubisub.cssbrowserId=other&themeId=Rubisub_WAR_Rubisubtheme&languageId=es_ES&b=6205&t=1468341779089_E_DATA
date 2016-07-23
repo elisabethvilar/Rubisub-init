@@ -1,0 +1,30 @@
+.aui .navbar .nav > li > a {
+  color: white;
+  text-transform: uppercase;
+  text-shadow: none; }
+
+.aui .navbar .nav > li > a:hover {
+  color: white; }
+
+.aui #navigation .nav li.active > a {
+  background-color: #FB9203;
+  color: white; }
+
+.modify-pages li {
+  float: left;
+  width: 200px;
+  background-color: #0066b3;
+  list-style: none;
+  margin: 1px;
+  text-align: center; }
+  .modify-pages li a {
+    color: white; }
+
+.navbar-inner {
+  border-width: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important; }
+
+.breadcrumb {
+  background: transparent !important; }
+
