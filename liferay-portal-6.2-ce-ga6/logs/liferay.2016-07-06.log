@@ -1,0 +1,127 @@
+16:51:20,820 INFO  [localhost-startStop-1][DialectDetector:71] Determine dialect for HSQL Database Engine 2
+16:51:20,824 WARN  [localhost-startStop-1][DialectDetector:86] Liferay is configured to use Hypersonic as its database. Do NOT use Hypersonic in production. Hypersonic is an embedded database useful for development and demo'ing purposes. The database settings can be changed in portal-ext.properties.
+16:51:20,891 INFO  [localhost-startStop-1][DialectDetector:136] Found dialect org.hibernate.dialect.HSQLDialect
+16:51:49,633 INFO  [localhost-startStop-1][StartupAction:97] There are no patches installed
+16:51:50,549 INFO  [localhost-startStop-1][BaseDB:481] Database supports case sensitive queries
+16:51:51,293 INFO  [localhost-startStop-1][VerifyProcess:65] Verifying com.liferay.portal.verify.VerifyProcessSuite
+16:51:51,294 INFO  [localhost-startStop-1][VerifyProcess:65] Verifying com.liferay.portal.verify.VerifyProperties
+16:51:51,319 INFO  [localhost-startStop-1][VerifyProcess:65] Verifying com.liferay.portal.verify.VerifyDB2
+16:51:51,319 INFO  [localhost-startStop-1][VerifyProcess:65] Verifying com.liferay.portal.verify.VerifyMySQL
+16:51:51,320 INFO  [localhost-startStop-1][VerifyProcess:65] Verifying com.liferay.portal.verify.VerifyOracle
+16:51:51,320 INFO  [localhost-startStop-1][VerifyProcess:65] Verifying com.liferay.portal.verify.VerifySQLServer
+16:51:51,321 INFO  [localhost-startStop-1][VerifyProcess:65] Verifying com.liferay.portal.verify.VerifyUUID
+16:51:51,348 INFO  [localhost-startStop-1][VerifyProcess:65] Verifying com.liferay.portal.verify.VerifyPermission
+16:51:52,152 INFO  [localhost-startStop-1][VerifyProcess:65] Verifying com.liferay.portal.verify.VerifyGroup
+16:51:52,203 INFO  [localhost-startStop-1][VerifyProcess:65] Verifying com.liferay.portal.verify.VerifyRole
+16:51:52,204 INFO  [localhost-startStop-1][VerifyProcess:65] Verifying com.liferay.portal.verify.VerifyAsset
+16:51:52,207 INFO  [localhost-startStop-1][UpgradeProcess:164] Upgrading com.liferay.portal.upgrade.util.UpgradeAssetPublisherManualEntries
+16:51:52,208 INFO  [localhost-startStop-1][VerifyProcess:65] Verifying com.liferay.portal.verify.VerifyAuditedModel
+16:51:52,213 INFO  [localhost-startStop-1][VerifyProcess:65] Verifying com.liferay.portal.verify.VerifyBlogs
+16:51:52,218 INFO  [localhost-startStop-1][VerifyProcess:65] Verifying com.liferay.portal.verify.VerifyBookmarks
+16:51:52,224 INFO  [localhost-startStop-1][VerifyProcess:65] Verifying com.liferay.portal.verify.VerifyCalendar
+16:51:52,228 INFO  [localhost-startStop-1][VerifyProcess:65] Verifying com.liferay.portal.verify.VerifyDocumentLibrary
+16:51:52,357 INFO  [localhost-startStop-1][VerifyProcess:65] Verifying com.liferay.portal.verify.VerifyDynamicDataMapping
+16:51:52,361 INFO  [localhost-startStop-1][VerifyProcess:65] Verifying com.liferay.portal.verify.VerifyGroupId
+16:51:52,364 INFO  [localhost-startStop-1][VerifyProcess:65] Verifying com.liferay.portal.verify.VerifyJournal
+16:51:52,378 INFO  [localhost-startStop-1][VerifyProcess:65] Verifying com.liferay.portal.verify.VerifyLayout
+16:51:52,399 INFO  [localhost-startStop-1][VerifyProcess:65] Verifying com.liferay.portal.verify.VerifyMessageBoards
+16:51:52,410 INFO  [localhost-startStop-1][VerifyProcess:65] Verifying com.liferay.portal.verify.VerifyOrganization
+16:51:52,416 INFO  [localhost-startStop-1][VerifyProcess:65] Verifying com.liferay.portal.verify.VerifyPortalPreferences
+16:51:52,417 INFO  [localhost-startStop-1][VerifyProcess:65] Verifying com.liferay.portal.verify.VerifyPortletPreferences
+16:51:52,434 INFO  [localhost-startStop-1][VerifyProcess:65] Verifying com.liferay.portal.verify.VerifyRegion
+16:51:52,435 INFO  [localhost-startStop-1][VerifyProcess:65] Verifying com.liferay.portal.verify.VerifyResourcePermissions
+16:51:52,436 INFO  [localhost-startStop-1][VerifyProcess:65] Verifying com.liferay.portal.verify.VerifyUser
+16:51:52,441 INFO  [localhost-startStop-1][VerifyProcess:65] Verifying com.liferay.portal.verify.VerifyWiki
+16:51:52,444 INFO  [localhost-startStop-1][VerifyProcess:65] Verifying com.liferay.portal.verify.VerifyWorkflow
+16:51:52,495 INFO  [localhost-startStop-1][ServerDetector:140] Server supports hot deploy
+16:51:52,501 INFO  [localhost-startStop-1][PluginPackageUtil:1013] Reading plugin package for the root context
+16:52:10,047 INFO  [localhost-startStop-1][AutoDeployDir:116] Creating missing directory C:\Program Files\liferay-portal-6.2-ce-ga6\deploy
+16:52:10,049 INFO  [localhost-startStop-1][AutoDeployDir:139] Auto deploy scanner started for C:\Program Files\liferay-portal-6.2-ce-ga6\deploy
+16:58:58,069 INFO  [http-bio-8080-exec-9][HotDeployEvent:145] Plugin calendar-portlet requires marketplace-portlet
+16:58:58,073 INFO  [http-bio-8080-exec-9][HotDeployImpl:276] Queueing calendar-portlet for deploy because it is missing marketplace-portlet
+16:58:58,258 INFO  [http-bio-8080-exec-9][HotDeployEvent:145] Plugin kaleo-web requires marketplace-portlet
+16:58:58,260 INFO  [http-bio-8080-exec-9][HotDeployImpl:276] Queueing kaleo-web for deploy because it is missing marketplace-portlet
+16:58:58,307 INFO  [http-bio-8080-exec-9][HotDeployImpl:217] Deploying marketplace-portlet from queue
+16:58:58,311 INFO  [http-bio-8080-exec-9][PluginPackageUtil:1016] Reading plugin package for marketplace-portlet
+16:58:58,467 INFO  [http-bio-8080-exec-9][ServiceComponentLocalServiceImpl:323] Running Marketplace SQL scripts
+16:58:59,432 INFO  [http-bio-8080-exec-9][HookHotDeployListener:709] Registering hook for marketplace-portlet
+16:58:59,463 INFO  [http-bio-8080-exec-9][UpgradeProcess:164] Upgrading com.liferay.marketplace.hook.upgrade.UpgradeProcess_1_0_0
+16:58:59,466 INFO  [http-bio-8080-exec-9][UpgradeProcess:164] Upgrading com.liferay.marketplace.hook.upgrade.v1_0_0.UpgradeExpando
+16:58:59,525 INFO  [http-bio-8080-exec-9][HookHotDeployListener:851] Hook for marketplace-portlet is available for use
+16:58:59,532 INFO  [http-bio-8080-exec-9][PortletHotDeployListener:344] Registering portlets for marketplace-portlet
+16:58:59,788 INFO  [http-bio-8080-exec-9][PortletHotDeployListener:497] 3 portlets for marketplace-portlet are available for use
+16:58:59,790 INFO  [http-bio-8080-exec-9][HotDeployImpl:217] Deploying calendar-portlet from queue
+16:58:59,790 INFO  [http-bio-8080-exec-9][PluginPackageUtil:1016] Reading plugin package for calendar-portlet
+16:59:00,023 INFO  [http-bio-8080-exec-9][ServiceComponentLocalServiceImpl:323] Running Calendar SQL scripts
+16:59:02,297 INFO  [http-bio-8080-exec-9][HookHotDeployListener:709] Registering hook for calendar-portlet
+16:59:02,320 INFO  [http-bio-8080-exec-9][UpgradeProcess:164] Upgrading com.liferay.calendar.hook.upgrade.UpgradeProcess_1_0_2
+16:59:02,322 INFO  [http-bio-8080-exec-9][UpgradeProcess:164] Upgrading com.liferay.calendar.hook.upgrade.v1_0_2.UpgradePortletPreferences
+16:59:05,411 INFO  [http-bio-8080-exec-9][HookHotDeployListener:851] Hook for calendar-portlet is available for use
+16:59:05,478 INFO  [http-bio-8080-exec-9][PortletHotDeployListener:344] Registering portlets for calendar-portlet
+16:59:05,831 INFO  [http-bio-8080-exec-9][PortletHotDeployListener:492] 1 portlet for calendar-portlet is available for use
+16:59:05,832 INFO  [http-bio-8080-exec-9][SocialHotDeployListener:94] Registering social for calendar-portlet
+16:59:05,834 INFO  [http-bio-8080-exec-9][SocialHotDeployListener:103] Social for calendar-portlet is available for use
+16:59:05,835 INFO  [http-bio-8080-exec-9][HotDeployImpl:217] Deploying kaleo-web from queue
+16:59:05,836 INFO  [http-bio-8080-exec-9][PluginPackageUtil:1016] Reading plugin package for kaleo-web
+16:59:05,970 INFO  [http-bio-8080-exec-9][ServiceComponentLocalServiceImpl:323] Running Kaleo SQL scripts
+16:59:09,247 INFO  [http-bio-8080-exec-9][HookHotDeployListener:709] Registering hook for kaleo-web
+16:59:09,262 INFO  [http-bio-8080-exec-9][UpgradeProcess:164] Upgrading com.liferay.portal.workflow.kaleo.hook.upgrade.UpgradeProcess_1_0_0
+16:59:09,265 INFO  [http-bio-8080-exec-9][UpgradeProcess:164] Upgrading com.liferay.portal.workflow.kaleo.hook.upgrade.v1_0_0.UpgradeKaleoTaskInstanceToken
+16:59:09,271 INFO  [http-bio-8080-exec-9][UpgradeProcess:164] Upgrading com.liferay.portal.workflow.kaleo.hook.upgrade.UpgradeProcess_1_1_0
+16:59:09,274 INFO  [http-bio-8080-exec-9][UpgradeProcess:164] Upgrading com.liferay.portal.workflow.kaleo.hook.upgrade.v1_1_0.UpgradeWorkflowContext
+16:59:09,309 INFO  [http-bio-8080-exec-9][UpgradeProcess:164] Upgrading com.liferay.portal.workflow.kaleo.hook.upgrade.UpgradeProcess_1_2_0
+16:59:09,311 INFO  [http-bio-8080-exec-9][UpgradeProcess:164] Upgrading com.liferay.portal.workflow.kaleo.hook.upgrade.v1_2_0.UpgradeKaleoLog
+16:59:09,322 INFO  [http-bio-8080-exec-9][Table:157] Starting backup of KaleoLog to C:\Program Files\liferay-portal-6.2-ce-ga6\tomcat-7.0.62/temp/temp-db-KaleoLog-1467824349322
+16:59:09,324 INFO  [http-bio-8080-exec-9][Table:191] Finished backup of KaleoLog to C:\Program Files\liferay-portal-6.2-ce-ga6\tomcat-7.0.62/temp/temp-db-KaleoLog-1467824349322 in 2 ms
+16:59:09,330 INFO  [http-bio-8080-exec-9][UpgradeProcess:164] Upgrading com.liferay.portal.workflow.kaleo.hook.upgrade.v1_2_0.UpgradeKaleoNotificationRecipient
+16:59:09,356 INFO  [http-bio-8080-exec-9][HookHotDeployListener:851] Hook for kaleo-web is available for use
+16:59:09,555 INFO  [http-bio-8080-exec-9][HotDeployEvent:145] Plugin notifications-portlet requires marketplace-portlet
+16:59:09,556 INFO  [http-bio-8080-exec-9][HotDeployImpl:217] Deploying notifications-portlet from queue
+16:59:09,557 INFO  [http-bio-8080-exec-9][PluginPackageUtil:1016] Reading plugin package for notifications-portlet
+16:59:09,782 INFO  [http-bio-8080-exec-9][ServiceComponentLocalServiceImpl:323] Running Notification SQL scripts
+16:59:10,200 INFO  [http-bio-8080-exec-9][HookHotDeployListener:709] Registering hook for notifications-portlet
+16:59:10,212 INFO  [http-bio-8080-exec-9][UpgradeProcess:164] Upgrading com.liferay.notifications.hook.upgrade.UpgradeProcess_1_0_0
+16:59:10,214 INFO  [http-bio-8080-exec-9][UpgradeProcess:164] Upgrading com.liferay.notifications.hook.upgrade.v1_0_0.UpgradeUserNotificationEvent
+16:59:10,221 INFO  [http-bio-8080-exec-9][UpgradeProcess:164] Upgrading com.liferay.notifications.hook.upgrade.UpgradeProcess_1_1_0
+16:59:10,224 INFO  [http-bio-8080-exec-9][UpgradeProcess:164] Upgrading com.liferay.notifications.hook.upgrade.v1_1_0.UpgradeUserNotificationEvent
+16:59:10,495 INFO  [http-bio-8080-exec-9][HookHotDeployListener:851] Hook for notifications-portlet is available for use
+16:59:10,498 INFO  [http-bio-8080-exec-9][PortletHotDeployListener:344] Registering portlets for notifications-portlet
+16:59:10,646 INFO  [http-bio-8080-exec-9][PortletHotDeployListener:497] 2 portlets for notifications-portlet are available for use
+16:59:10,673 INFO  [http-bio-8080-exec-9][HotDeployEvent:145] Plugin opensocial-portlet requires marketplace-portlet
+16:59:10,673 INFO  [http-bio-8080-exec-9][HotDeployImpl:217] Deploying opensocial-portlet from queue
+16:59:10,674 INFO  [http-bio-8080-exec-9][PluginPackageUtil:1016] Reading plugin package for opensocial-portlet
+16:59:10,792 INFO  [http-bio-8080-exec-9][ServiceComponentLocalServiceImpl:323] Running OpenSocial SQL scripts
+16:59:12,261 INFO  [http-bio-8080-exec-9][HookHotDeployListener:709] Registering hook for opensocial-portlet
+16:59:12,310 INFO  [http-bio-8080-exec-9][HookHotDeployListener:851] Hook for opensocial-portlet is available for use
+16:59:12,315 INFO  [http-bio-8080-exec-9][PortletHotDeployListener:344] Registering portlets for opensocial-portlet
+16:59:12,800 INFO  [http-bio-8080-exec-9][PortletHotDeployListener:497] 4 portlets for opensocial-portlet are available for use
+16:59:13,178 INFO  [http-bio-8080-exec-9][HotDeployEvent:145] Plugin resources-importer-web requires marketplace-portlet
+16:59:13,179 INFO  [http-bio-8080-exec-9][HotDeployImpl:217] Deploying resources-importer-web from queue
+16:59:13,179 INFO  [http-bio-8080-exec-9][PluginPackageUtil:1016] Reading plugin package for resources-importer-web
+16:59:13,421 INFO  [http-bio-8080-exec-9][HookHotDeployListener:709] Registering hook for resources-importer-web
+16:59:13,439 INFO  [http-bio-8080-exec-9][HookHotDeployListener:851] Hook for resources-importer-web is available for use
+16:59:13,460 INFO  [http-bio-8080-exec-9][HotDeployEvent:145] Plugin sync-web requires marketplace-portlet
+16:59:13,461 INFO  [http-bio-8080-exec-9][HotDeployImpl:217] Deploying sync-web from queue
+16:59:13,462 INFO  [http-bio-8080-exec-9][PluginPackageUtil:1016] Reading plugin package for sync-web
+16:59:13,525 INFO  [http-bio-8080-exec-9][ServiceComponentLocalServiceImpl:323] Running Sync SQL scripts
+16:59:16,930 INFO  [http-bio-8080-exec-9][HookHotDeployListener:709] Registering hook for sync-web
+16:59:16,978 INFO  [http-bio-8080-exec-9][UpgradeProcess:164] Upgrading com.liferay.sync.hook.upgrade.v1_0_0.UpgradeIndex
+16:59:17,374 INFO  [http-bio-8080-exec-9][HookHotDeployListener:851] Hook for sync-web is available for use
+16:59:17,526 INFO  [http-bio-8080-exec-9][HotDeployEvent:145] Plugin web-form-portlet requires marketplace-portlet
+16:59:17,527 INFO  [http-bio-8080-exec-9][HotDeployImpl:217] Deploying web-form-portlet from queue
+16:59:17,527 INFO  [http-bio-8080-exec-9][PluginPackageUtil:1016] Reading plugin package for web-form-portlet
+16:59:17,789 INFO  [http-bio-8080-exec-9][PortletHotDeployListener:344] Registering portlets for web-form-portlet
+16:59:18,042 INFO  [http-bio-8080-exec-9][PortletHotDeployListener:492] 1 portlet for web-form-portlet is available for use
+16:59:18,075 INFO  [http-bio-8080-exec-9][SetupWizardSampleDataUtil:56] Adding sample data
+16:59:44,171 INFO  [http-bio-8080-exec-9][SetupWizardSampleDataUtil:139] Finished adding data in 26096 ms
+18:59:03,341 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:204] Processing Rubisub theme-theme.xml
+18:59:04,683 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][ThemeExplodedTomcatListener:48] Modifying themes for C:\Program Files\liferay-portal-6.2-ce-ga6\deploy\Rubisub theme-theme.xml
+18:59:08,923 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:2391] Modifying Servlet 2.4 C:\Program Files\liferay-portal-6.2-ce-ga6\tomcat-7.0.62\webapps\Rubisub theme-theme\WEB-INF\web.xml
+18:59:08,924 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][ThemeExplodedTomcatListener:54] Themes for C:\Program Files\liferay-portal-6.2-ce-ga6\deploy\Rubisub theme-theme.xml modified successfully
+18:59:08,968 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseExplodedTomcatListener:49] Copying file C:\Program Files\liferay-portal-6.2-ce-ga6\deploy\Rubisub theme-theme.xml to C:\Program Files\liferay-portal-6.2-ce-ga6\tomcat-7.0.62\conf\Catalina\localhost
+18:59:22,584 INFO  [localhost-startStop-3][HotDeployEvent:145] Plugin Rubisub theme-theme requires marketplace-portlet
+18:59:22,608 INFO  [localhost-startStop-3][HotDeployImpl:217] Deploying Rubisub theme-theme from queue
+18:59:22,655 INFO  [localhost-startStop-3][PluginPackageUtil:1016] Reading plugin package for Rubisub theme-theme
+18:59:25,189 INFO  [localhost-startStop-3][ThemeHotDeployListener:98] Registering themes for Rubisub theme-theme
+18:59:27,507 INFO  [localhost-startStop-3][ThemeHotDeployListener:113] 1 theme for Rubisub theme-theme is available for use
+18:59:36,517 INFO  [liferay/hot_deploy-1][ResourcesImporterHotDeployMessageListener:129] Importing resources from Rubisub theme-theme to group 21212 takes 4033 ms

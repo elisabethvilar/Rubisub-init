@@ -1,0 +1,619 @@
+15:12:19,747 INFO  [localhost-startStop-1][DialectDetector:71] Determine dialect for HSQL Database Engine 2
+15:12:19,762 WARN  [localhost-startStop-1][DialectDetector:86] Liferay is configured to use Hypersonic as its database. Do NOT use Hypersonic in production. Hypersonic is an embedded database useful for development and demo'ing purposes. The database settings can be changed in portal-ext.properties.
+15:12:19,810 INFO  [localhost-startStop-1][DialectDetector:136] Found dialect org.hibernate.dialect.HSQLDialect
+15:12:45,924 INFO  [localhost-startStop-1][StartupAction:97] There are no patches installed
+15:12:46,799 INFO  [localhost-startStop-1][BaseDB:481] Database supports case sensitive queries
+15:12:47,205 INFO  [localhost-startStop-1][ServerDetector:140] Server supports hot deploy
+15:12:47,220 INFO  [localhost-startStop-1][PluginPackageUtil:1013] Reading plugin package for the root context
+15:13:15,551 INFO  [localhost-startStop-1][AutoDeployDir:139] Auto deploy scanner started for C:\Program Files\liferay-portal-6.2-ce-ga6\deploy
+15:13:22,105 INFO  [localhost-startStop-1][HotDeployEvent:145] Plugin Rubisub-theme requires marketplace-portlet
+15:13:22,153 INFO  [localhost-startStop-1][HotDeployImpl:276] Queueing Rubisub-theme for deploy because it is missing marketplace-portlet
+15:13:31,466 INFO  [localhost-startStop-1][HotDeployEvent:145] Plugin calendar-portlet requires marketplace-portlet
+15:13:31,466 INFO  [localhost-startStop-1][HotDeployImpl:276] Queueing calendar-portlet for deploy because it is missing marketplace-portlet
+15:13:44,555 INFO  [localhost-startStop-1][HotDeployEvent:145] Plugin kaleo-web requires marketplace-portlet
+15:13:44,555 INFO  [localhost-startStop-1][HotDeployImpl:276] Queueing kaleo-web for deploy because it is missing marketplace-portlet
+15:13:48,067 INFO  [localhost-startStop-1][HotDeployImpl:217] Deploying marketplace-portlet from queue
+15:13:48,067 INFO  [localhost-startStop-1][PluginPackageUtil:1016] Reading plugin package for marketplace-portlet
+15:13:49,442 INFO  [localhost-startStop-1][HookHotDeployListener:709] Registering hook for marketplace-portlet
+15:13:49,536 INFO  [localhost-startStop-1][HookHotDeployListener:851] Hook for marketplace-portlet is available for use
+15:13:49,536 INFO  [localhost-startStop-1][PortletHotDeployListener:344] Registering portlets for marketplace-portlet
+15:13:49,754 INFO  [localhost-startStop-1][PortletHotDeployListener:497] 3 portlets for marketplace-portlet are available for use
+15:13:49,754 INFO  [localhost-startStop-1][HotDeployImpl:217] Deploying Rubisub-theme from queue
+15:13:49,754 INFO  [localhost-startStop-1][PluginPackageUtil:1016] Reading plugin package for Rubisub-theme
+15:13:50,784 INFO  [localhost-startStop-1][ThemeHotDeployListener:98] Registering themes for Rubisub-theme
+15:13:54,748 INFO  [localhost-startStop-1][ThemeHotDeployListener:113] 1 theme for Rubisub-theme is available for use
+15:13:54,748 INFO  [localhost-startStop-1][HotDeployImpl:217] Deploying calendar-portlet from queue
+15:13:54,748 INFO  [localhost-startStop-1][PluginPackageUtil:1016] Reading plugin package for calendar-portlet
+15:13:56,077 INFO  [localhost-startStop-1][HookHotDeployListener:709] Registering hook for calendar-portlet
+15:13:57,200 INFO  [localhost-startStop-1][HookHotDeployListener:851] Hook for calendar-portlet is available for use
+15:13:57,216 INFO  [localhost-startStop-1][PortletHotDeployListener:344] Registering portlets for calendar-portlet
+15:13:57,467 INFO  [localhost-startStop-1][PortletHotDeployListener:492] 1 portlet for calendar-portlet is available for use
+15:13:57,467 INFO  [localhost-startStop-1][SocialHotDeployListener:94] Registering social for calendar-portlet
+15:13:57,467 INFO  [localhost-startStop-1][SocialHotDeployListener:103] Social for calendar-portlet is available for use
+15:13:57,467 INFO  [localhost-startStop-1][HotDeployImpl:217] Deploying kaleo-web from queue
+15:13:57,467 INFO  [localhost-startStop-1][PluginPackageUtil:1016] Reading plugin package for kaleo-web
+15:14:00,443 INFO  [localhost-startStop-1][HookHotDeployListener:709] Registering hook for kaleo-web
+15:14:00,475 INFO  [localhost-startStop-1][HookHotDeployListener:851] Hook for kaleo-web is available for use
+15:14:03,659 INFO  [localhost-startStop-1][HotDeployEvent:145] Plugin notifications-portlet requires marketplace-portlet
+15:14:03,659 INFO  [localhost-startStop-1][HotDeployImpl:217] Deploying notifications-portlet from queue
+15:14:03,659 INFO  [localhost-startStop-1][PluginPackageUtil:1016] Reading plugin package for notifications-portlet
+15:14:05,563 INFO  [localhost-startStop-1][HookHotDeployListener:709] Registering hook for notifications-portlet
+15:14:05,751 INFO  [localhost-startStop-1][HookHotDeployListener:851] Hook for notifications-portlet is available for use
+15:14:05,751 INFO  [localhost-startStop-1][PortletHotDeployListener:344] Registering portlets for notifications-portlet
+15:14:05,876 INFO  [localhost-startStop-1][PortletHotDeployListener:497] 2 portlets for notifications-portlet are available for use
+15:14:11,805 INFO  [localhost-startStop-1][HotDeployEvent:145] Plugin opensocial-portlet requires marketplace-portlet
+15:14:11,805 INFO  [localhost-startStop-1][HotDeployImpl:217] Deploying opensocial-portlet from queue
+15:14:11,805 INFO  [localhost-startStop-1][PluginPackageUtil:1016] Reading plugin package for opensocial-portlet
+15:14:12,977 INFO  [localhost-startStop-1][HookHotDeployListener:709] Registering hook for opensocial-portlet
+15:14:13,024 INFO  [localhost-startStop-1][HookHotDeployListener:851] Hook for opensocial-portlet is available for use
+15:14:13,039 INFO  [localhost-startStop-1][PortletHotDeployListener:344] Registering portlets for opensocial-portlet
+15:14:13,664 INFO  [localhost-startStop-1][PortletHotDeployListener:497] 4 portlets for opensocial-portlet are available for use
+15:14:16,755 INFO  [localhost-startStop-1][HotDeployEvent:145] Plugin resources-importer-web requires marketplace-portlet
+15:14:16,755 INFO  [localhost-startStop-1][HotDeployImpl:217] Deploying resources-importer-web from queue
+15:14:16,755 INFO  [localhost-startStop-1][PluginPackageUtil:1016] Reading plugin package for resources-importer-web
+15:14:16,928 INFO  [localhost-startStop-1][HookHotDeployListener:709] Registering hook for resources-importer-web
+15:14:16,943 INFO  [localhost-startStop-1][HookHotDeployListener:851] Hook for resources-importer-web is available for use
+15:14:20,985 INFO  [localhost-startStop-1][HotDeployEvent:145] Plugin sync-web requires marketplace-portlet
+15:14:20,985 INFO  [localhost-startStop-1][HotDeployImpl:217] Deploying sync-web from queue
+15:14:20,985 INFO  [localhost-startStop-1][PluginPackageUtil:1016] Reading plugin package for sync-web
+15:14:21,564 INFO  [localhost-startStop-1][HookHotDeployListener:709] Registering hook for sync-web
+15:14:22,999 INFO  [localhost-startStop-1][HookHotDeployListener:851] Hook for sync-web is available for use
+15:14:24,844 INFO  [localhost-startStop-1][HotDeployEvent:145] Plugin web-form-portlet requires marketplace-portlet
+15:14:24,844 INFO  [localhost-startStop-1][HotDeployImpl:217] Deploying web-form-portlet from queue
+15:14:24,844 INFO  [localhost-startStop-1][PluginPackageUtil:1016] Reading plugin package for web-form-portlet
+15:14:25,079 INFO  [localhost-startStop-1][PortletHotDeployListener:344] Registering portlets for web-form-portlet
+15:14:25,157 INFO  [localhost-startStop-1][PortletHotDeployListener:492] 1 portlet for web-form-portlet is available for use
+15:28:02,549 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][HotDeployEvent:145] Plugin Rubisub-theme requires marketplace-portlet
+15:28:02,629 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][ThemeHotDeployListener:140] Unregistering themes for Rubisub-theme
+15:28:02,629 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][ThemeHotDeployListener:172] 1 theme for Rubisub-theme was unregistered
+15:28:02,723 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][PluginPackageUtil:1016] Reading plugin package for Rubisub-theme
+15:28:03,643 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][HotDeployEvent:145] Plugin Rubisub-theme requires marketplace-portlet
+15:28:03,643 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][HotDeployImpl:217] Deploying Rubisub-theme from queue
+15:28:03,643 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][PluginPackageUtil:1016] Reading plugin package for Rubisub-theme
+15:28:03,754 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][ThemeHotDeployListener:98] Registering themes for Rubisub-theme
+15:28:05,035 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][ThemeHotDeployListener:113] 1 theme for Rubisub-theme is available for use
+15:28:05,646 INFO  [liferay/hot_deploy-1][ResourcesImporterHotDeployMessageListener:129] Importing resources from Rubisub-theme to group 21302 takes 579 ms
+15:28:05,882 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:204] Processing Rubisub-theme.xml
+15:28:05,902 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][ThemeExplodedTomcatListener:48] Modifying themes for C:\Program Files\liferay-portal-6.2-ce-ga6\deploy\Rubisub-theme.xml
+15:28:07,283 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:2391] Modifying Servlet 2.4 C:\Program Files\liferay-portal-6.2-ce-ga6\tomcat-7.0.62\webapps\Rubisub-theme\WEB-INF\web.xml
+15:28:07,298 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][ThemeExplodedTomcatListener:54] Themes for C:\Program Files\liferay-portal-6.2-ce-ga6\deploy\Rubisub-theme.xml modified successfully
+15:28:07,298 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseExplodedTomcatListener:49] Copying file C:\Program Files\liferay-portal-6.2-ce-ga6\deploy\Rubisub-theme.xml to C:\Program Files\liferay-portal-6.2-ce-ga6\tomcat-7.0.62\conf\Catalina\localhost
+15:28:15,084 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][HotDeployEvent:145] Plugin Rubisub-theme requires marketplace-portlet
+15:28:15,084 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][ThemeHotDeployListener:140] Unregistering themes for Rubisub-theme
+15:28:15,084 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][ThemeHotDeployListener:172] 1 theme for Rubisub-theme was unregistered
+15:28:15,084 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][PluginPackageUtil:1016] Reading plugin package for Rubisub-theme
+15:28:16,180 INFO  [localhost-startStop-2][HotDeployEvent:145] Plugin Rubisub-theme requires marketplace-portlet
+15:28:16,180 INFO  [localhost-startStop-2][HotDeployImpl:217] Deploying Rubisub-theme from queue
+15:28:16,180 INFO  [localhost-startStop-2][PluginPackageUtil:1016] Reading plugin package for Rubisub-theme
+15:28:16,322 INFO  [localhost-startStop-2][ThemeHotDeployListener:98] Registering themes for Rubisub-theme
+15:28:18,344 INFO  [localhost-startStop-2][ThemeHotDeployListener:113] 1 theme for Rubisub-theme is available for use
+15:28:18,424 INFO  [liferay/hot_deploy-1][ResourcesImporterHotDeployMessageListener:129] Importing resources from Rubisub-theme to group 21302 takes 80 ms
+15:41:52,783 WARN  [http-bio-8080-exec-13][code_jsp:?] {code="404", msg="/_diffs/css/rubisub.css", uri=/_diffs/css/rubisub.css}
+15:41:53,208 WARN  [http-bio-8080-exec-14][code_jsp:?] {code="404", msg="/_diffs/css/rubisub.css", uri=/_diffs/css/rubisub.css}
+16:07:49,087 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:204] Processing Rubisub-theme.xml
+16:07:49,093 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][ThemeExplodedTomcatListener:48] Modifying themes for C:\Program Files\liferay-portal-6.2-ce-ga6\deploy\Rubisub-theme.xml
+16:07:49,272 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:2391] Modifying Servlet 2.4 C:\Program Files\liferay-portal-6.2-ce-ga6\tomcat-7.0.62\webapps\Rubisub-theme\WEB-INF\web.xml
+16:07:49,273 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][ThemeExplodedTomcatListener:54] Themes for C:\Program Files\liferay-portal-6.2-ce-ga6\deploy\Rubisub-theme.xml modified successfully
+16:07:49,273 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseExplodedTomcatListener:49] Copying file C:\Program Files\liferay-portal-6.2-ce-ga6\deploy\Rubisub-theme.xml to C:\Program Files\liferay-portal-6.2-ce-ga6\tomcat-7.0.62\conf\Catalina\localhost
+16:07:50,661 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][HotDeployEvent:145] Plugin Rubisub-theme requires marketplace-portlet
+16:07:50,661 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][ThemeHotDeployListener:140] Unregistering themes for Rubisub-theme
+16:07:50,662 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][ThemeHotDeployListener:172] 1 theme for Rubisub-theme was unregistered
+16:07:50,666 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][PluginPackageUtil:1016] Reading plugin package for Rubisub-theme
+16:07:51,776 INFO  [localhost-startStop-3][HotDeployEvent:145] Plugin Rubisub-theme requires marketplace-portlet
+16:07:51,776 INFO  [localhost-startStop-3][HotDeployImpl:217] Deploying Rubisub-theme from queue
+16:07:51,776 INFO  [localhost-startStop-3][PluginPackageUtil:1016] Reading plugin package for Rubisub-theme
+16:07:51,890 INFO  [localhost-startStop-3][ThemeHotDeployListener:98] Registering themes for Rubisub-theme
+16:07:52,767 INFO  [localhost-startStop-3][ThemeHotDeployListener:113] 1 theme for Rubisub-theme is available for use
+16:07:52,918 INFO  [liferay/hot_deploy-1][ResourcesImporterHotDeployMessageListener:129] Importing resources from Rubisub-theme to group 21302 takes 146 ms
+16:26:38,285 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:204] Processing test-theme.xml
+16:26:38,301 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][ThemeExplodedTomcatListener:48] Modifying themes for C:\Program Files\liferay-portal-6.2-ce-ga6\deploy\test-theme.xml
+16:26:38,458 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:2391] Modifying Servlet 2.4 C:\Program Files\liferay-portal-6.2-ce-ga6\tomcat-7.0.62\webapps\test-theme\WEB-INF\web.xml
+16:26:38,458 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][ThemeExplodedTomcatListener:54] Themes for C:\Program Files\liferay-portal-6.2-ce-ga6\deploy\test-theme.xml modified successfully
+16:26:38,458 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseExplodedTomcatListener:49] Copying file C:\Program Files\liferay-portal-6.2-ce-ga6\deploy\test-theme.xml to C:\Program Files\liferay-portal-6.2-ce-ga6\tomcat-7.0.62\conf\Catalina\localhost
+16:26:45,095 INFO  [localhost-startStop-4][HotDeployEvent:145] Plugin test-theme requires marketplace-portlet
+16:26:45,095 INFO  [localhost-startStop-4][HotDeployImpl:217] Deploying test-theme from queue
+16:26:45,095 INFO  [localhost-startStop-4][PluginPackageUtil:1016] Reading plugin package for test-theme
+16:26:45,548 INFO  [localhost-startStop-4][ThemeHotDeployListener:98] Registering themes for test-theme
+16:26:46,656 INFO  [localhost-startStop-4][ThemeHotDeployListener:113] 1 theme for test-theme is available for use
+16:26:47,297 INFO  [liferay/hot_deploy-1][ResourcesImporterHotDeployMessageListener:129] Importing resources from test-theme to group 21546 takes 218 ms
+16:29:02,084 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][HotDeployEvent:145] Plugin test-theme requires marketplace-portlet
+16:29:02,084 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][ThemeHotDeployListener:140] Unregistering themes for test-theme
+16:29:02,084 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][ThemeHotDeployListener:172] 1 theme for test-theme was unregistered
+16:29:02,100 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][PluginPackageUtil:1016] Reading plugin package for test-theme
+16:29:02,100 WARN  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][PluginPackageUtil:1114] Plugin package on context test-theme cannot be tracked because this WAR does not contain a liferay-plugin-package.xml file
+16:29:51,891 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:204] Processing old-Rubisub-theme.xml
+16:29:52,132 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][ThemeExplodedTomcatListener:48] Modifying themes for C:\Program Files\liferay-portal-6.2-ce-ga6\deploy\old-Rubisub-theme.xml
+16:29:53,733 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][HotDeployEvent:145] Plugin Rubisub-theme requires marketplace-portlet
+16:29:53,749 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][ThemeHotDeployListener:140] Unregistering themes for Rubisub-theme
+16:29:53,749 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][ThemeHotDeployListener:172] 1 theme for Rubisub-theme was unregistered
+16:29:53,749 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][PluginPackageUtil:1016] Reading plugin package for Rubisub-theme
+16:29:54,677 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:2391] Modifying Servlet 2.4 C:\Program Files\liferay-portal-6.2-ce-ga6\tomcat-7.0.62\webapps\old-Rubisub-theme\WEB-INF\web.xml
+16:29:54,677 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][ThemeExplodedTomcatListener:54] Themes for C:\Program Files\liferay-portal-6.2-ce-ga6\deploy\old-Rubisub-theme.xml modified successfully
+16:29:54,677 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseExplodedTomcatListener:49] Copying file C:\Program Files\liferay-portal-6.2-ce-ga6\deploy\old-Rubisub-theme.xml to C:\Program Files\liferay-portal-6.2-ce-ga6\tomcat-7.0.62\conf\Catalina\localhost
+16:29:59,701 INFO  [localhost-startStop-5][HotDeployEvent:145] Plugin old-Rubisub-theme requires marketplace-portlet
+16:29:59,701 INFO  [localhost-startStop-5][HotDeployImpl:217] Deploying old-Rubisub-theme from queue
+16:29:59,701 INFO  [localhost-startStop-5][PluginPackageUtil:1016] Reading plugin package for old-Rubisub-theme
+16:30:01,280 INFO  [localhost-startStop-5][ThemeHotDeployListener:98] Registering themes for old-Rubisub-theme
+16:30:02,357 INFO  [localhost-startStop-5][ThemeHotDeployListener:113] 1 theme for old-Rubisub-theme is available for use
+16:30:02,796 INFO  [liferay/hot_deploy-1][ResourcesImporterHotDeployMessageListener:129] Importing resources from old-Rubisub-theme to group 21566 takes 281 ms
+16:34:14,726 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:204] Processing old-Rubisub-theme.xml
+16:34:22,793 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][HotDeployEvent:145] Plugin old-Rubisub-theme requires marketplace-portlet
+16:34:22,793 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][ThemeHotDeployListener:140] Unregistering themes for old-Rubisub-theme
+16:34:22,808 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][ThemeHotDeployListener:172] 1 theme for old-Rubisub-theme was unregistered
+16:34:22,808 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][PluginPackageUtil:1016] Reading plugin package for old-Rubisub-theme
+16:34:22,808 WARN  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][PluginPackageUtil:1114] Plugin package on context old-Rubisub-theme cannot be tracked because this WAR does not contain a liferay-plugin-package.xml file
+16:35:37,772 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:204] Processing RubisubTheme-theme.xml
+16:35:37,788 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][ThemeExplodedTomcatListener:48] Modifying themes for C:\Program Files\liferay-portal-6.2-ce-ga6\deploy\RubisubTheme-theme.xml
+16:35:38,710 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:2391] Modifying Servlet 2.4 C:\Program Files\liferay-portal-6.2-ce-ga6\tomcat-7.0.62\webapps\RubisubTheme-theme\WEB-INF\web.xml
+16:35:38,713 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][ThemeExplodedTomcatListener:54] Themes for C:\Program Files\liferay-portal-6.2-ce-ga6\deploy\RubisubTheme-theme.xml modified successfully
+16:35:38,713 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseExplodedTomcatListener:49] Copying file C:\Program Files\liferay-portal-6.2-ce-ga6\deploy\RubisubTheme-theme.xml to C:\Program Files\liferay-portal-6.2-ce-ga6\tomcat-7.0.62\conf\Catalina\localhost
+16:35:44,015 WARN  [http-bio-8080-exec-31][ThemeLocalServiceImpl:156] No theme found for specified theme id test_WAR_testtheme. Returning the default theme.
+16:35:44,045 WARN  [http-bio-8080-exec-31][ThemeLocalServiceImpl:156] No theme found for specified theme id test_WAR_testtheme. Returning the default theme.
+16:35:44,083 WARN  [http-bio-8080-exec-31][ThemeLocalServiceImpl:156] No theme found for specified theme id test_WAR_testtheme. Returning the default theme.
+16:35:44,093 WARN  [http-bio-8080-exec-31][ThemeLocalServiceImpl:156] No theme found for specified theme id test_WAR_testtheme. Returning the default theme.
+16:35:44,121 WARN  [http-bio-8080-exec-31][ThemeLocalServiceImpl:156] No theme found for specified theme id test_WAR_testtheme. Returning the default theme.
+16:35:44,123 WARN  [http-bio-8080-exec-31][ThemeLocalServiceImpl:156] No theme found for specified theme id test_WAR_testtheme. Returning the default theme.
+16:35:50,797 INFO  [localhost-startStop-7][HotDeployEvent:145] Plugin RubisubTheme-theme requires marketplace-portlet
+16:35:50,797 INFO  [localhost-startStop-7][HotDeployImpl:217] Deploying RubisubTheme-theme from queue
+16:35:50,798 INFO  [localhost-startStop-7][PluginPackageUtil:1016] Reading plugin package for RubisubTheme-theme
+16:35:51,432 INFO  [localhost-startStop-7][ThemeHotDeployListener:98] Registering themes for RubisubTheme-theme
+16:35:53,116 INFO  [localhost-startStop-7][ThemeHotDeployListener:113] 1 theme for RubisubTheme-theme is available for use
+16:35:55,017 INFO  [liferay/hot_deploy-1][ResourcesImporterHotDeployMessageListener:129] Importing resources from RubisubTheme-theme to group 21586 takes 234 ms
+16:36:37,458 WARN  [http-bio-8080-exec-56][ThemeLocalServiceImpl:156] No theme found for specified theme id test_WAR_testtheme. Returning the default theme.
+16:36:37,459 WARN  [http-bio-8080-exec-56][ThemeLocalServiceImpl:156] No theme found for specified theme id test_WAR_testtheme. Returning the default theme.
+16:36:37,471 WARN  [http-bio-8080-exec-56][ThemeLocalServiceImpl:156] No theme found for specified theme id test_WAR_testtheme. Returning the default theme.
+16:36:37,475 WARN  [http-bio-8080-exec-56][ThemeLocalServiceImpl:156] No theme found for specified theme id test_WAR_testtheme. Returning the default theme.
+16:36:37,487 WARN  [http-bio-8080-exec-56][ThemeLocalServiceImpl:156] No theme found for specified theme id test_WAR_testtheme. Returning the default theme.
+16:36:37,488 WARN  [http-bio-8080-exec-56][ThemeLocalServiceImpl:156] No theme found for specified theme id test_WAR_testtheme. Returning the default theme.
+16:42:35,593 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][HotDeployEvent:145] Plugin RubisubTheme-theme requires marketplace-portlet
+16:42:35,594 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][ThemeHotDeployListener:140] Unregistering themes for RubisubTheme-theme
+16:42:35,595 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][ThemeHotDeployListener:172] 1 theme for RubisubTheme-theme was unregistered
+16:42:35,600 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][PluginPackageUtil:1016] Reading plugin package for RubisubTheme-theme
+16:42:35,601 WARN  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][PluginPackageUtil:1114] Plugin package on context RubisubTheme-theme cannot be tracked because this WAR does not contain a liferay-plugin-package.xml file
+16:42:59,022 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:204] Processing Rubisub-theme.xml
+16:42:59,039 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][ThemeExplodedTomcatListener:48] Modifying themes for C:\Program Files\liferay-portal-6.2-ce-ga6\deploy\Rubisub-theme.xml
+16:42:59,089 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:2391] Modifying Servlet 2.4 C:\Program Files\liferay-portal-6.2-ce-ga6\tomcat-7.0.62\webapps\Rubisub-theme\WEB-INF\web.xml
+16:42:59,090 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][ThemeExplodedTomcatListener:54] Themes for C:\Program Files\liferay-portal-6.2-ce-ga6\deploy\Rubisub-theme.xml modified successfully
+16:42:59,090 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseExplodedTomcatListener:49] Copying file C:\Program Files\liferay-portal-6.2-ce-ga6\deploy\Rubisub-theme.xml to C:\Program Files\liferay-portal-6.2-ce-ga6\tomcat-7.0.62\conf\Catalina\localhost
+16:43:06,679 INFO  [localhost-startStop-8][HotDeployEvent:145] Plugin Rubisub-theme requires marketplace-portlet
+16:43:06,679 INFO  [localhost-startStop-8][HotDeployImpl:217] Deploying Rubisub-theme from queue
+16:43:06,679 INFO  [localhost-startStop-8][PluginPackageUtil:1016] Reading plugin package for Rubisub-theme
+16:43:07,055 INFO  [localhost-startStop-8][ThemeHotDeployListener:98] Registering themes for Rubisub-theme
+16:43:08,101 INFO  [localhost-startStop-8][ThemeHotDeployListener:113] 1 theme for Rubisub-theme is available for use
+16:43:08,315 INFO  [liferay/hot_deploy-1][ResourcesImporterHotDeployMessageListener:129] Importing resources from Rubisub-theme to group 21302 takes 211 ms
+16:43:21,854 WARN  [http-bio-8080-exec-66][ThemeLocalServiceImpl:156] No theme found for specified theme id RubisubTheme_WAR_RubisubThemetheme. Returning the default theme.
+16:43:21,855 WARN  [http-bio-8080-exec-66][ThemeLocalServiceImpl:156] No theme found for specified theme id RubisubTheme_WAR_RubisubThemetheme. Returning the default theme.
+16:43:21,866 WARN  [http-bio-8080-exec-66][ThemeLocalServiceImpl:156] No theme found for specified theme id RubisubTheme_WAR_RubisubThemetheme. Returning the default theme.
+16:43:21,870 WARN  [http-bio-8080-exec-66][ThemeLocalServiceImpl:156] No theme found for specified theme id RubisubTheme_WAR_RubisubThemetheme. Returning the default theme.
+16:43:21,878 WARN  [http-bio-8080-exec-66][ThemeLocalServiceImpl:156] No theme found for specified theme id RubisubTheme_WAR_RubisubThemetheme. Returning the default theme.
+16:43:21,879 WARN  [http-bio-8080-exec-66][ThemeLocalServiceImpl:156] No theme found for specified theme id RubisubTheme_WAR_RubisubThemetheme. Returning the default theme.
+17:09:03,845 ERROR [http-bio-8080-exec-83][DynamicCSSFilter:182] Unable to parse SASS on CSS /css/rubisub.css
+com.liferay.portal.kernel.scripting.ScriptingException: java.util.concurrent.ExecutionException: org.jruby.embed.EvalFailedException: (SyntaxError) Invalid CSS after "...ariables.scss")": expected selector or at-rule, was ".aui .navbar .n..."
+	at com.liferay.portal.scripting.ruby.RubyExecutor.eval(RubyExecutor.java:254)
+	at com.liferay.portal.scripting.ruby.RubyExecutor.eval(RubyExecutor.java:129)
+	at com.liferay.portal.servlet.filters.dynamiccss.DynamicCSSUtil._parseSass(DynamicCSSUtil.java:509)
+	at com.liferay.portal.servlet.filters.dynamiccss.DynamicCSSUtil.parseSass(DynamicCSSUtil.java:178)
+	at com.liferay.portal.servlet.filters.dynamiccss.DynamicCSSFilter.getDynamicContent(DynamicCSSFilter.java:147)
+	at com.liferay.portal.servlet.filters.dynamiccss.DynamicCSSFilter.processFilter(DynamicCSSFilter.java:209)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.PortalClassLoaderFilter.doFilter(PortalClassLoaderFilter.java:74)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at sun.reflect.GeneratedMethodAccessor371.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.liferay.portal.kernel.bean.ClassLoaderBeanHandler.invoke(ClassLoaderBeanHandler.java:67)
+	at com.sun.proxy.$Proxy551.doFilter(Unknown Source)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.aggregate.AggregateFilter.processFilter(AggregateFilter.java:518)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.PortalClassLoaderFilter.doFilter(PortalClassLoaderFilter.java:74)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at sun.reflect.GeneratedMethodAccessor371.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.liferay.portal.kernel.bean.ClassLoaderBeanHandler.invoke(ClassLoaderBeanHandler.java:67)
+	at com.sun.proxy.$Proxy551.doFilter(Unknown Source)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.gzip.GZipFilter.processFilter(GZipFilter.java:123)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.PortalClassLoaderFilter.doFilter(PortalClassLoaderFilter.java:74)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at sun.reflect.GeneratedMethodAccessor371.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.liferay.portal.kernel.bean.ClassLoaderBeanHandler.invoke(ClassLoaderBeanHandler.java:67)
+	at com.sun.proxy.$Proxy551.doFilter(Unknown Source)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:165)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at com.liferay.portal.kernel.servlet.PortalClassLoaderFilter.doFilter(PortalClassLoaderFilter.java:74)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.util.concurrent.ExecutionException: org.jruby.embed.EvalFailedException: (SyntaxError) Invalid CSS after "...ariables.scss")": expected selector or at-rule, was ".aui .navbar .n..."
+	at java.util.concurrent.FutureTask.report(Unknown Source)
+	at java.util.concurrent.FutureTask.get(Unknown Source)
+	at com.liferay.portal.scripting.ruby.RubyExecutor.eval(RubyExecutor.java:248)
+	... 68 more
+Caused by: org.jruby.embed.EvalFailedException: (SyntaxError) Invalid CSS after "...ariables.scss")": expected selector or at-rule, was ".aui .navbar .n..."
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.liferay.portal.scripting.ruby.RubyExecutor.doEval(RubyExecutor.java:189)
+	at com.liferay.portal.scripting.ruby.RubyExecutor$EvalCallable.call(RubyExecutor.java:332)
+	at com.liferay.portal.scripting.ruby.RubyExecutor$EvalCallable.call(RubyExecutor.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	... 1 more
+Caused by: org.jruby.exceptions.RaiseException: (SyntaxError) Invalid CSS after "...ariables.scss")": expected selector or at-rule, was ".aui .navbar .n..."
+17:10:29,949 ERROR [http-bio-8080-exec-76][DynamicCSSFilter:182] Unable to parse SASS on CSS /css/rubisub.css
+com.liferay.portal.kernel.scripting.ScriptingException: java.util.concurrent.ExecutionException: org.jruby.embed.EvalFailedException: (SyntaxError) Invalid CSS after "...ort 'variables'": expected selector or at-rule, was ".aui .navbar .n..."
+	at com.liferay.portal.scripting.ruby.RubyExecutor.eval(RubyExecutor.java:254)
+	at com.liferay.portal.scripting.ruby.RubyExecutor.eval(RubyExecutor.java:129)
+	at com.liferay.portal.servlet.filters.dynamiccss.DynamicCSSUtil._parseSass(DynamicCSSUtil.java:509)
+	at com.liferay.portal.servlet.filters.dynamiccss.DynamicCSSUtil.parseSass(DynamicCSSUtil.java:178)
+	at com.liferay.portal.servlet.filters.dynamiccss.DynamicCSSFilter.getDynamicContent(DynamicCSSFilter.java:147)
+	at com.liferay.portal.servlet.filters.dynamiccss.DynamicCSSFilter.processFilter(DynamicCSSFilter.java:209)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.PortalClassLoaderFilter.doFilter(PortalClassLoaderFilter.java:74)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at sun.reflect.GeneratedMethodAccessor371.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.liferay.portal.kernel.bean.ClassLoaderBeanHandler.invoke(ClassLoaderBeanHandler.java:67)
+	at com.sun.proxy.$Proxy551.doFilter(Unknown Source)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.aggregate.AggregateFilter.processFilter(AggregateFilter.java:518)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.PortalClassLoaderFilter.doFilter(PortalClassLoaderFilter.java:74)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at sun.reflect.GeneratedMethodAccessor371.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.liferay.portal.kernel.bean.ClassLoaderBeanHandler.invoke(ClassLoaderBeanHandler.java:67)
+	at com.sun.proxy.$Proxy551.doFilter(Unknown Source)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.gzip.GZipFilter.processFilter(GZipFilter.java:123)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.PortalClassLoaderFilter.doFilter(PortalClassLoaderFilter.java:74)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at sun.reflect.GeneratedMethodAccessor371.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.liferay.portal.kernel.bean.ClassLoaderBeanHandler.invoke(ClassLoaderBeanHandler.java:67)
+	at com.sun.proxy.$Proxy551.doFilter(Unknown Source)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:165)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at com.liferay.portal.kernel.servlet.PortalClassLoaderFilter.doFilter(PortalClassLoaderFilter.java:74)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.util.concurrent.ExecutionException: org.jruby.embed.EvalFailedException: (SyntaxError) Invalid CSS after "...ort 'variables'": expected selector or at-rule, was ".aui .navbar .n..."
+	at java.util.concurrent.FutureTask.report(Unknown Source)
+	at java.util.concurrent.FutureTask.get(Unknown Source)
+	at com.liferay.portal.scripting.ruby.RubyExecutor.eval(RubyExecutor.java:248)
+	... 68 more
+Caused by: org.jruby.embed.EvalFailedException: (SyntaxError) Invalid CSS after "...ort 'variables'": expected selector or at-rule, was ".aui .navbar .n..."
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.liferay.portal.scripting.ruby.RubyExecutor.doEval(RubyExecutor.java:189)
+	at com.liferay.portal.scripting.ruby.RubyExecutor$EvalCallable.call(RubyExecutor.java:332)
+	at com.liferay.portal.scripting.ruby.RubyExecutor$EvalCallable.call(RubyExecutor.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	... 1 more
+Caused by: org.jruby.exceptions.RaiseException: (SyntaxError) Invalid CSS after "...ort 'variables'": expected selector or at-rule, was ".aui .navbar .n..."
+17:10:33,219 ERROR [http-bio-8080-exec-81][DynamicCSSFilter:182] Unable to parse SASS on CSS /css/rubisub.css
+com.liferay.portal.kernel.scripting.ScriptingException: java.util.concurrent.ExecutionException: org.jruby.embed.EvalFailedException: (SyntaxError) Invalid CSS after "...ort 'variables'": expected selector or at-rule, was ".aui .navbar .n..."
+	at com.liferay.portal.scripting.ruby.RubyExecutor.eval(RubyExecutor.java:254)
+	at com.liferay.portal.scripting.ruby.RubyExecutor.eval(RubyExecutor.java:129)
+	at com.liferay.portal.servlet.filters.dynamiccss.DynamicCSSUtil._parseSass(DynamicCSSUtil.java:509)
+	at com.liferay.portal.servlet.filters.dynamiccss.DynamicCSSUtil.parseSass(DynamicCSSUtil.java:178)
+	at com.liferay.portal.servlet.filters.dynamiccss.DynamicCSSFilter.getDynamicContent(DynamicCSSFilter.java:147)
+	at com.liferay.portal.servlet.filters.dynamiccss.DynamicCSSFilter.processFilter(DynamicCSSFilter.java:209)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.PortalClassLoaderFilter.doFilter(PortalClassLoaderFilter.java:74)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at sun.reflect.GeneratedMethodAccessor371.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.liferay.portal.kernel.bean.ClassLoaderBeanHandler.invoke(ClassLoaderBeanHandler.java:67)
+	at com.sun.proxy.$Proxy551.doFilter(Unknown Source)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.aggregate.AggregateFilter.processFilter(AggregateFilter.java:518)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.PortalClassLoaderFilter.doFilter(PortalClassLoaderFilter.java:74)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at sun.reflect.GeneratedMethodAccessor371.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.liferay.portal.kernel.bean.ClassLoaderBeanHandler.invoke(ClassLoaderBeanHandler.java:67)
+	at com.sun.proxy.$Proxy551.doFilter(Unknown Source)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.gzip.GZipFilter.processFilter(GZipFilter.java:123)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.PortalClassLoaderFilter.doFilter(PortalClassLoaderFilter.java:74)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at sun.reflect.GeneratedMethodAccessor371.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.liferay.portal.kernel.bean.ClassLoaderBeanHandler.invoke(ClassLoaderBeanHandler.java:67)
+	at com.sun.proxy.$Proxy551.doFilter(Unknown Source)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:165)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at com.liferay.portal.kernel.servlet.PortalClassLoaderFilter.doFilter(PortalClassLoaderFilter.java:74)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.util.concurrent.ExecutionException: org.jruby.embed.EvalFailedException: (SyntaxError) Invalid CSS after "...ort 'variables'": expected selector or at-rule, was ".aui .navbar .n..."
+	at java.util.concurrent.FutureTask.report(Unknown Source)
+	at java.util.concurrent.FutureTask.get(Unknown Source)
+	at com.liferay.portal.scripting.ruby.RubyExecutor.eval(RubyExecutor.java:248)
+	... 68 more
+Caused by: org.jruby.embed.EvalFailedException: (SyntaxError) Invalid CSS after "...ort 'variables'": expected selector or at-rule, was ".aui .navbar .n..."
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.liferay.portal.scripting.ruby.RubyExecutor.doEval(RubyExecutor.java:189)
+	at com.liferay.portal.scripting.ruby.RubyExecutor$EvalCallable.call(RubyExecutor.java:332)
+	at com.liferay.portal.scripting.ruby.RubyExecutor$EvalCallable.call(RubyExecutor.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	... 1 more
+Caused by: org.jruby.exceptions.RaiseException: (SyntaxError) Invalid CSS after "...ort 'variables'": expected selector or at-rule, was ".aui .navbar .n..."
+17:10:51,076 ERROR [http-bio-8080-exec-81][DynamicCSSFilter:182] Unable to parse SASS on CSS /css/rubisub.css
+com.liferay.portal.kernel.scripting.ScriptingException: java.util.concurrent.ExecutionException: org.jruby.embed.EvalFailedException: (SyntaxError) Invalid CSS after "$blueRubisub ": expected ":", was "= #0066b3;"
+	at com.liferay.portal.scripting.ruby.RubyExecutor.eval(RubyExecutor.java:254)
+	at com.liferay.portal.scripting.ruby.RubyExecutor.eval(RubyExecutor.java:129)
+	at com.liferay.portal.servlet.filters.dynamiccss.DynamicCSSUtil._parseSass(DynamicCSSUtil.java:509)
+	at com.liferay.portal.servlet.filters.dynamiccss.DynamicCSSUtil.parseSass(DynamicCSSUtil.java:178)
+	at com.liferay.portal.servlet.filters.dynamiccss.DynamicCSSFilter.getDynamicContent(DynamicCSSFilter.java:147)
+	at com.liferay.portal.servlet.filters.dynamiccss.DynamicCSSFilter.processFilter(DynamicCSSFilter.java:209)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.PortalClassLoaderFilter.doFilter(PortalClassLoaderFilter.java:74)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at sun.reflect.GeneratedMethodAccessor371.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.liferay.portal.kernel.bean.ClassLoaderBeanHandler.invoke(ClassLoaderBeanHandler.java:67)
+	at com.sun.proxy.$Proxy551.doFilter(Unknown Source)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.aggregate.AggregateFilter.processFilter(AggregateFilter.java:518)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.PortalClassLoaderFilter.doFilter(PortalClassLoaderFilter.java:74)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at sun.reflect.GeneratedMethodAccessor371.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.liferay.portal.kernel.bean.ClassLoaderBeanHandler.invoke(ClassLoaderBeanHandler.java:67)
+	at com.sun.proxy.$Proxy551.doFilter(Unknown Source)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.gzip.GZipFilter.processFilter(GZipFilter.java:123)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.PortalClassLoaderFilter.doFilter(PortalClassLoaderFilter.java:74)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at sun.reflect.GeneratedMethodAccessor371.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.liferay.portal.kernel.bean.ClassLoaderBeanHandler.invoke(ClassLoaderBeanHandler.java:67)
+	at com.sun.proxy.$Proxy551.doFilter(Unknown Source)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:165)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at com.liferay.portal.kernel.servlet.PortalClassLoaderFilter.doFilter(PortalClassLoaderFilter.java:74)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.util.concurrent.ExecutionException: org.jruby.embed.EvalFailedException: (SyntaxError) Invalid CSS after "$blueRubisub ": expected ":", was "= #0066b3;"
+	at java.util.concurrent.FutureTask.report(Unknown Source)
+	at java.util.concurrent.FutureTask.get(Unknown Source)
+	at com.liferay.portal.scripting.ruby.RubyExecutor.eval(RubyExecutor.java:248)
+	... 68 more
+Caused by: org.jruby.embed.EvalFailedException: (SyntaxError) Invalid CSS after "$blueRubisub ": expected ":", was "= #0066b3;"
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.liferay.portal.scripting.ruby.RubyExecutor.doEval(RubyExecutor.java:189)
+	at com.liferay.portal.scripting.ruby.RubyExecutor$EvalCallable.call(RubyExecutor.java:332)
+	at com.liferay.portal.scripting.ruby.RubyExecutor$EvalCallable.call(RubyExecutor.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	... 1 more
+Caused by: org.jruby.exceptions.RaiseException: (SyntaxError) Invalid CSS after "$blueRubisub ": expected ":", was "= #0066b3;"
+17:13:08,002 ERROR [http-bio-8080-exec-80][DynamicCSSFilter:182] Unable to parse SASS on CSS /css/rubisub.css
+com.liferay.portal.kernel.scripting.ScriptingException: java.util.concurrent.ExecutionException: org.jruby.embed.EvalFailedException: (SyntaxError) Invalid CSS after "$blueRubisub ": expected ":", was "= #0066b3;"
+	at com.liferay.portal.scripting.ruby.RubyExecutor.eval(RubyExecutor.java:254)
+	at com.liferay.portal.scripting.ruby.RubyExecutor.eval(RubyExecutor.java:129)
+	at com.liferay.portal.servlet.filters.dynamiccss.DynamicCSSUtil._parseSass(DynamicCSSUtil.java:509)
+	at com.liferay.portal.servlet.filters.dynamiccss.DynamicCSSUtil.parseSass(DynamicCSSUtil.java:178)
+	at com.liferay.portal.servlet.filters.dynamiccss.DynamicCSSFilter.getDynamicContent(DynamicCSSFilter.java:147)
+	at com.liferay.portal.servlet.filters.dynamiccss.DynamicCSSFilter.processFilter(DynamicCSSFilter.java:209)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.PortalClassLoaderFilter.doFilter(PortalClassLoaderFilter.java:74)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at sun.reflect.GeneratedMethodAccessor371.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.liferay.portal.kernel.bean.ClassLoaderBeanHandler.invoke(ClassLoaderBeanHandler.java:67)
+	at com.sun.proxy.$Proxy551.doFilter(Unknown Source)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.aggregate.AggregateFilter.processFilter(AggregateFilter.java:518)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.PortalClassLoaderFilter.doFilter(PortalClassLoaderFilter.java:74)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at sun.reflect.GeneratedMethodAccessor371.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.liferay.portal.kernel.bean.ClassLoaderBeanHandler.invoke(ClassLoaderBeanHandler.java:67)
+	at com.sun.proxy.$Proxy551.doFilter(Unknown Source)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.gzip.GZipFilter.processFilter(GZipFilter.java:123)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.PortalClassLoaderFilter.doFilter(PortalClassLoaderFilter.java:74)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at sun.reflect.GeneratedMethodAccessor371.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.liferay.portal.kernel.bean.ClassLoaderBeanHandler.invoke(ClassLoaderBeanHandler.java:67)
+	at com.sun.proxy.$Proxy551.doFilter(Unknown Source)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:165)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at com.liferay.portal.kernel.servlet.PortalClassLoaderFilter.doFilter(PortalClassLoaderFilter.java:74)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.util.concurrent.ExecutionException: org.jruby.embed.EvalFailedException: (SyntaxError) Invalid CSS after "$blueRubisub ": expected ":", was "= #0066b3;"
+	at java.util.concurrent.FutureTask.report(Unknown Source)
+	at java.util.concurrent.FutureTask.get(Unknown Source)
+	at com.liferay.portal.scripting.ruby.RubyExecutor.eval(RubyExecutor.java:248)
+	... 68 more
+Caused by: org.jruby.embed.EvalFailedException: (SyntaxError) Invalid CSS after "$blueRubisub ": expected ":", was "= #0066b3;"
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.liferay.portal.scripting.ruby.RubyExecutor.doEval(RubyExecutor.java:189)
+	at com.liferay.portal.scripting.ruby.RubyExecutor$EvalCallable.call(RubyExecutor.java:332)
+	at com.liferay.portal.scripting.ruby.RubyExecutor$EvalCallable.call(RubyExecutor.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	... 1 more
+Caused by: org.jruby.exceptions.RaiseException: (SyntaxError) Invalid CSS after "$blueRubisub ": expected ":", was "= #0066b3;"

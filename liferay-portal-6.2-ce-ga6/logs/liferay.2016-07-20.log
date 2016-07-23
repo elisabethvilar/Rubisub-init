@@ -1,0 +1,342 @@
+14:46:39,403 INFO  [localhost-startStop-1][DialectDetector:71] Determine dialect for HSQL Database Engine 2
+14:46:39,407 WARN  [localhost-startStop-1][DialectDetector:86] Liferay is configured to use Hypersonic as its database. Do NOT use Hypersonic in production. Hypersonic is an embedded database useful for development and demo'ing purposes. The database settings can be changed in portal-ext.properties.
+14:46:40,422 INFO  [localhost-startStop-1][DialectDetector:136] Found dialect org.hibernate.dialect.HSQLDialect
+14:47:09,044 INFO  [localhost-startStop-1][StartupAction:97] There are no patches installed
+14:47:11,016 INFO  [localhost-startStop-1][BaseDB:481] Database supports case sensitive queries
+14:47:11,526 INFO  [localhost-startStop-1][ServerDetector:140] Server supports hot deploy
+14:47:11,537 INFO  [localhost-startStop-1][PluginPackageUtil:1013] Reading plugin package for the root context
+14:48:01,706 INFO  [localhost-startStop-1][AutoDeployDir:139] Auto deploy scanner started for C:\Program Files\liferay-portal-6.2-ce-ga6\deploy
+14:48:07,624 INFO  [localhost-startStop-1][HotDeployEvent:145] Plugin Rubisub-theme requires marketplace-portlet
+14:48:07,655 INFO  [localhost-startStop-1][HotDeployImpl:276] Queueing Rubisub-theme for deploy because it is missing marketplace-portlet
+14:48:19,592 INFO  [localhost-startStop-1][HotDeployEvent:145] Plugin calendar-portlet requires marketplace-portlet
+14:48:19,592 INFO  [localhost-startStop-1][HotDeployImpl:276] Queueing calendar-portlet for deploy because it is missing marketplace-portlet
+14:48:36,315 INFO  [localhost-startStop-1][HotDeployEvent:145] Plugin kaleo-web requires marketplace-portlet
+14:48:36,315 INFO  [localhost-startStop-1][HotDeployImpl:276] Queueing kaleo-web for deploy because it is missing marketplace-portlet
+14:48:40,591 INFO  [localhost-startStop-1][HotDeployImpl:217] Deploying marketplace-portlet from queue
+14:48:40,591 INFO  [localhost-startStop-1][PluginPackageUtil:1016] Reading plugin package for marketplace-portlet
+14:48:41,279 INFO  [localhost-startStop-1][HookHotDeployListener:709] Registering hook for marketplace-portlet
+14:48:41,450 INFO  [localhost-startStop-1][HookHotDeployListener:851] Hook for marketplace-portlet is available for use
+14:48:41,450 INFO  [localhost-startStop-1][PortletHotDeployListener:344] Registering portlets for marketplace-portlet
+14:48:41,653 INFO  [localhost-startStop-1][PortletHotDeployListener:497] 3 portlets for marketplace-portlet are available for use
+14:48:41,653 INFO  [localhost-startStop-1][HotDeployImpl:217] Deploying Rubisub-theme from queue
+14:48:41,653 INFO  [localhost-startStop-1][PluginPackageUtil:1016] Reading plugin package for Rubisub-theme
+14:48:42,497 INFO  [localhost-startStop-1][ThemeHotDeployListener:98] Registering themes for Rubisub-theme
+14:48:47,384 INFO  [localhost-startStop-1][ThemeHotDeployListener:113] 1 theme for Rubisub-theme is available for use
+14:48:47,384 INFO  [localhost-startStop-1][HotDeployImpl:217] Deploying calendar-portlet from queue
+14:48:47,384 INFO  [localhost-startStop-1][PluginPackageUtil:1016] Reading plugin package for calendar-portlet
+14:48:48,886 INFO  [localhost-startStop-1][HookHotDeployListener:709] Registering hook for calendar-portlet
+14:48:50,212 INFO  [localhost-startStop-1][HookHotDeployListener:851] Hook for calendar-portlet is available for use
+14:48:50,227 INFO  [localhost-startStop-1][PortletHotDeployListener:344] Registering portlets for calendar-portlet
+14:48:50,403 INFO  [localhost-startStop-1][PortletHotDeployListener:492] 1 portlet for calendar-portlet is available for use
+14:48:50,403 INFO  [localhost-startStop-1][SocialHotDeployListener:94] Registering social for calendar-portlet
+14:48:50,403 INFO  [localhost-startStop-1][SocialHotDeployListener:103] Social for calendar-portlet is available for use
+14:48:50,403 INFO  [localhost-startStop-1][HotDeployImpl:217] Deploying kaleo-web from queue
+14:48:50,403 INFO  [localhost-startStop-1][PluginPackageUtil:1016] Reading plugin package for kaleo-web
+14:48:53,167 INFO  [localhost-startStop-1][HookHotDeployListener:709] Registering hook for kaleo-web
+14:48:53,199 INFO  [localhost-startStop-1][HookHotDeployListener:851] Hook for kaleo-web is available for use
+14:48:57,396 INFO  [localhost-startStop-1][HotDeployEvent:145] Plugin notifications-portlet requires marketplace-portlet
+14:48:57,396 INFO  [localhost-startStop-1][HotDeployImpl:217] Deploying notifications-portlet from queue
+14:48:57,396 INFO  [localhost-startStop-1][PluginPackageUtil:1016] Reading plugin package for notifications-portlet
+14:48:57,756 INFO  [localhost-startStop-1][HookHotDeployListener:709] Registering hook for notifications-portlet
+14:48:57,943 INFO  [localhost-startStop-1][HookHotDeployListener:851] Hook for notifications-portlet is available for use
+14:48:57,943 INFO  [localhost-startStop-1][PortletHotDeployListener:344] Registering portlets for notifications-portlet
+14:48:58,084 INFO  [localhost-startStop-1][PortletHotDeployListener:497] 2 portlets for notifications-portlet are available for use
+14:49:08,041 INFO  [localhost-startStop-1][HotDeployEvent:145] Plugin opensocial-portlet requires marketplace-portlet
+14:49:08,042 INFO  [localhost-startStop-1][HotDeployImpl:217] Deploying opensocial-portlet from queue
+14:49:08,042 INFO  [localhost-startStop-1][PluginPackageUtil:1016] Reading plugin package for opensocial-portlet
+14:49:09,291 INFO  [localhost-startStop-1][HookHotDeployListener:709] Registering hook for opensocial-portlet
+14:49:09,343 INFO  [localhost-startStop-1][HookHotDeployListener:851] Hook for opensocial-portlet is available for use
+14:49:09,346 INFO  [localhost-startStop-1][PortletHotDeployListener:344] Registering portlets for opensocial-portlet
+14:49:09,637 INFO  [localhost-startStop-1][PortletHotDeployListener:497] 4 portlets for opensocial-portlet are available for use
+14:49:12,437 INFO  [localhost-startStop-1][HotDeployEvent:145] Plugin resources-importer-web requires marketplace-portlet
+14:49:12,437 INFO  [localhost-startStop-1][HotDeployImpl:217] Deploying resources-importer-web from queue
+14:49:12,438 INFO  [localhost-startStop-1][PluginPackageUtil:1016] Reading plugin package for resources-importer-web
+14:49:12,616 INFO  [localhost-startStop-1][HookHotDeployListener:709] Registering hook for resources-importer-web
+14:49:12,624 INFO  [localhost-startStop-1][HookHotDeployListener:851] Hook for resources-importer-web is available for use
+14:49:19,875 INFO  [localhost-startStop-1][HotDeployEvent:145] Plugin sync-web requires marketplace-portlet
+14:49:19,875 INFO  [localhost-startStop-1][HotDeployImpl:217] Deploying sync-web from queue
+14:49:19,875 INFO  [localhost-startStop-1][PluginPackageUtil:1016] Reading plugin package for sync-web
+14:49:20,452 INFO  [localhost-startStop-1][HookHotDeployListener:709] Registering hook for sync-web
+14:49:20,559 INFO  [localhost-startStop-1][HookHotDeployListener:851] Hook for sync-web is available for use
+14:49:22,585 INFO  [localhost-startStop-1][HotDeployEvent:145] Plugin web-form-portlet requires marketplace-portlet
+14:49:22,585 INFO  [localhost-startStop-1][HotDeployImpl:217] Deploying web-form-portlet from queue
+14:49:22,586 INFO  [localhost-startStop-1][PluginPackageUtil:1016] Reading plugin package for web-form-portlet
+14:49:22,791 INFO  [localhost-startStop-1][PortletHotDeployListener:344] Registering portlets for web-form-portlet
+14:49:22,879 INFO  [localhost-startStop-1][PortletHotDeployListener:492] 1 portlet for web-form-portlet is available for use
+17:54:53,810 WARN  [http-bio-8080-exec-18][code_jsp:?] {code="404", msg="/http://localhost:8080/Rubisub-theme/css/cursos.css", uri=/http://localhost:8080/Rubisub-theme/css/cursos.css}
+18:22:15,248 ERROR [http-bio-8080-exec-14][runtime:96] Template processing error: "Expression cur_nombre is undefined on line 12, column 32 in 20155#20195#21807."
+
+Expression cur_nombre is undefined on line 12, column 32 in 20155#20195#21807.
+The problematic instruction:
+----------
+==> ${cur_nombre.getData()} [on line 12, column 30 in 20155#20195#21807]
+----------
+
+Java backtrace for programmers:
+----------
+freemarker.core.InvalidReferenceException: Expression cur_nombre is undefined on line 12, column 32 in 20155#20195#21807.
+	at freemarker.core.TemplateObject.assertNonNull(TemplateObject.java:125)
+	at freemarker.core.TemplateObject.invalidTypeException(TemplateObject.java:135)
+	at freemarker.core.Dot._getAsTemplateModel(Dot.java:78)
+	at freemarker.core.Expression.getAsTemplateModel(Expression.java:89)
+	at freemarker.core.MethodCall._getAsTemplateModel(MethodCall.java:86)
+	at freemarker.core.Expression.getAsTemplateModel(Expression.java:89)
+	at freemarker.core.Expression.getStringValue(Expression.java:93)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:76)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.MixedContent.accept(MixedContent.java:92)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.Environment.process(Environment.java:199)
+	at freemarker.template.Template.process(Template.java:237)
+	at com.liferay.portal.freemarker.FreeMarkerTemplate.processTemplate(FreeMarkerTemplate.java:122)
+	at com.liferay.portal.template.AbstractTemplate.processTemplate(AbstractTemplate.java:127)
+	at com.liferay.portal.template.RestrictedTemplate.processTemplate(RestrictedTemplate.java:55)
+	at com.liferay.portal.templateparser.Transformer.mergeTemplate(Transformer.java:650)
+	at com.liferay.portal.templateparser.Transformer.transform(Transformer.java:362)
+	at com.liferay.portlet.journal.util.JournalUtil.transform(JournalUtil.java:1327)
+	at com.liferay.portlet.journal.service.impl.JournalArticleLocalServiceImpl.getArticleDisplay(JournalArticleLocalServiceImpl.java:2094)
+	at com.liferay.portlet.journal.service.impl.JournalArticleLocalServiceImpl.getArticleDisplay(JournalArticleLocalServiceImpl.java:2182)
+	at com.liferay.portlet.journal.service.impl.JournalArticleLocalServiceImpl.getArticleDisplay(JournalArticleLocalServiceImpl.java:2292)
+	at sun.reflect.GeneratedMethodAccessor1037.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.liferay.portal.kernel.bean.ClassLoaderBeanHandler.invoke(ClassLoaderBeanHandler.java:67)
+	at com.sun.proxy.$Proxy500.getArticleDisplay(Unknown Source)
+	at com.liferay.portlet.journal.service.JournalArticleLocalServiceWrapper.getArticleDisplay(JournalArticleLocalServiceWrapper.java:1454)
+	at sun.reflect.GeneratedMethodAccessor1037.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.liferay.portal.kernel.bean.ClassLoaderBeanHandler.invoke(ClassLoaderBeanHandler.java:67)
+	at com.sun.proxy.$Proxy501.getArticleDisplay(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor1037.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.liferay.portal.spring.aop.ServiceBeanMethodInvocation.proceed(ServiceBeanMethodInvocation.java:115)
+	at com.liferay.portal.spring.transaction.DefaultTransactionExecutor.execute(DefaultTransactionExecutor.java:62)
+	at com.liferay.portal.spring.transaction.TransactionInterceptor.invoke(TransactionInterceptor.java:51)
+	at com.liferay.portal.spring.aop.ServiceBeanMethodInvocation.proceed(ServiceBeanMethodInvocation.java:111)
+	at com.liferay.portal.spring.aop.ServiceBeanAopProxy.invoke(ServiceBeanAopProxy.java:175)
+	at com.sun.proxy.$Proxy222.getArticleDisplay(Unknown Source)
+	at com.liferay.portlet.journal.service.JournalArticleLocalServiceUtil.getArticleDisplay(JournalArticleLocalServiceUtil.java:1393)
+	at com.liferay.portlet.journalcontent.util.JournalContentImpl.getArticleDisplay(JournalContentImpl.java:300)
+	at com.liferay.portlet.journalcontent.util.JournalContentImpl.getDisplay(JournalContentImpl.java:166)
+	at com.liferay.portlet.journalcontent.util.JournalContentUtil.getDisplay(JournalContentUtil.java:84)
+	at com.liferay.portlet.journalcontent.action.ViewAction.render(ViewAction.java:81)
+	at com.liferay.portal.struts.PortletAction.execute(PortletAction.java:119)
+	at org.apache.struts.action.RequestProcessor.processActionPerform(RequestProcessor.java:431)
+	at com.liferay.portal.struts.PortletRequestProcessor.processActionPerform(PortletRequestProcessor.java:454)
+	at org.apache.struts.action.RequestProcessor.process(RequestProcessor.java:236)
+	at com.liferay.portal.struts.PortletRequestProcessor.process(PortletRequestProcessor.java:234)
+	at com.liferay.portlet.StrutsPortlet.include(StrutsPortlet.java:287)
+	at com.liferay.portlet.StrutsPortlet.doView(StrutsPortlet.java:157)
+	at com.liferay.portal.kernel.portlet.LiferayPortlet.doDispatch(LiferayPortlet.java:235)
+	at javax.portlet.GenericPortlet.render(GenericPortlet.java:262)
+	at com.liferay.portlet.FilterChainImpl.doFilter(FilterChainImpl.java:103)
+	at com.liferay.portlet.ScriptDataPortletFilter.doFilter(ScriptDataPortletFilter.java:55)
+	at com.liferay.portlet.FilterChainImpl.doFilter(FilterChainImpl.java:100)
+	at com.liferay.portal.kernel.portlet.PortletFilterUtil.doFilter(PortletFilterUtil.java:64)
+	at com.liferay.portlet.InvokerPortletImpl.invoke(InvokerPortletImpl.java:597)
+	at com.liferay.portlet.InvokerPortletImpl.invokeRender(InvokerPortletImpl.java:656)
+	at com.liferay.portlet.InvokerPortletImpl.render(InvokerPortletImpl.java:362)
+	at org.apache.jsp.html.portal.render_005fportlet_jsp._jspService(render_005fportlet_jsp.java:1239)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at com.liferay.portal.servlet.DirectRequestDispatcher.include(DirectRequestDispatcher.java:57)
+	at com.liferay.portal.servlet.ClassLoaderRequestDispatcherWrapper.doDispatch(ClassLoaderRequestDispatcherWrapper.java:78)
+	at com.liferay.portal.servlet.ClassLoaderRequestDispatcherWrapper.include(ClassLoaderRequestDispatcherWrapper.java:53)
+	at com.liferay.portlet.PortletContainerImpl._doRender(PortletContainerImpl.java:638)
+	at com.liferay.portlet.PortletContainerImpl.render(PortletContainerImpl.java:135)
+	at com.liferay.portlet.SecurityPortletContainerWrapper.render(SecurityPortletContainerWrapper.java:141)
+	at com.liferay.portlet.RestrictPortletContainerWrapper.render(RestrictPortletContainerWrapper.java:126)
+	at com.liferay.portal.kernel.portlet.PortletContainerUtil.render(PortletContainerUtil.java:156)
+	at com.liferay.portal.layoutconfiguration.util.PortletRenderer._render(PortletRenderer.java:125)
+	at com.liferay.portal.layoutconfiguration.util.PortletRenderer.render(PortletRenderer.java:72)
+	at com.liferay.portal.layoutconfiguration.util.RuntimePageImpl.doProcessTemplate(RuntimePageImpl.java:452)
+	at com.liferay.portal.layoutconfiguration.util.RuntimePageImpl.doDispatch(RuntimePageImpl.java:284)
+	at com.liferay.portal.layoutconfiguration.util.RuntimePageImpl.processTemplate(RuntimePageImpl.java:113)
+	at com.liferay.portal.layoutconfiguration.util.RuntimePageImpl.processTemplate(RuntimePageImpl.java:124)
+	at com.liferay.portal.layoutconfiguration.util.RuntimePageUtil.processTemplate(RuntimePageUtil.java:69)
+	at org.apache.jsp.html.portal.layout.view.portlet_jsp._jspService(portlet_jsp.java:557)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:748)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:604)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:543)
+	at com.liferay.portal.action.LayoutAction.includeLayoutContent(LayoutAction.java:302)
+	at com.liferay.portal.action.LayoutAction.processLayout(LayoutAction.java:413)
+	at com.liferay.portal.action.LayoutAction.doExecute(LayoutAction.java:200)
+	at com.liferay.portal.action.LayoutAction.execute(LayoutAction.java:95)
+	at org.apache.struts.action.RequestProcessor.processActionPerform(RequestProcessor.java:431)
+	at org.apache.struts.action.RequestProcessor.process(RequestProcessor.java:236)
+	at com.liferay.portal.struts.PortalRequestProcessor.process(PortalRequestProcessor.java:168)
+	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1196)
+	at org.apache.struts.action.ActionServlet.doGet(ActionServlet.java:414)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:624)
+	at com.liferay.portal.servlet.MainServlet.callParentService(MainServlet.java:557)
+	at com.liferay.portal.servlet.MainServlet.service(MainServlet.java:534)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.uploadservletrequest.UploadServletRequestFilter.processFilter(UploadServletRequestFilter.java:93)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.secure.SecureFilter.processFilter(SecureFilter.java:308)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.jsoncontenttype.JSONContentTypeFilter.processFilter(JSONContentTypeFilter.java:42)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:748)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:486)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:411)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:338)
+	at com.liferay.portal.servlet.FriendlyURLServlet.service(FriendlyURLServlet.java:161)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.uploadservletrequest.UploadServletRequestFilter.processFilter(UploadServletRequestFilter.java:93)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.strip.StripFilter.processFilter(StripFilter.java:361)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.gzip.GZipFilter.processFilter(GZipFilter.java:123)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.secure.SecureFilter.processFilter(SecureFilter.java:308)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.i18n.I18nFilter.processFilter(I18nFilter.java:254)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.jsoncontenttype.JSONContentTypeFilter.processFilter(JSONContentTypeFilter.java:42)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.autologin.AutoLoginFilter.processFilter(AutoLoginFilter.java:268)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.sso.ntlm.NtlmPostFilter.processFilter(NtlmPostFilter.java:83)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.sharepoint.SharepointFilter.processFilter(SharepointFilter.java:88)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.virtualhost.VirtualHostFilter.processFilter(VirtualHostFilter.java:226)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:185)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:738)
+	at com.liferay.portal.servlet.filters.urlrewrite.UrlRewriteFilter.processFilter(UrlRewriteFilter.java:57)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:165)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:165)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:185)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+19:12:06,024 WARN  [http-bio-8080-exec-24][PortalImpl:7503] Unable to impersonate 9KTNeUWZzomG/l/xV36rA== because the string cannot be decrypted
+20:16:13,660 INFO  [localhost-startStop-2][HotDeployEvent:145] Plugin web-form-portlet requires marketplace-portlet
+20:16:13,739 INFO  [localhost-startStop-2][PortletHotDeployListener:525] Unregistering portlets for web-form-portlet
+20:16:13,770 INFO  [localhost-startStop-2][PortletHotDeployListener:560] 1 portlet for web-form-portlet was unregistered
+20:16:13,880 INFO  [localhost-startStop-2][PluginPackageUtil:1016] Reading plugin package for web-form-portlet
+20:16:14,286 INFO  [localhost-startStop-2][HotDeployEvent:145] Plugin sync-web requires marketplace-portlet
+20:16:14,317 INFO  [localhost-startStop-2][HookHotDeployListener:982] Hook for sync-web was unregistered
+20:16:14,848 INFO  [localhost-startStop-2][PluginPackageUtil:1016] Reading plugin package for sync-web
+20:16:15,083 INFO  [localhost-startStop-2][HotDeployEvent:145] Plugin resources-importer-web requires marketplace-portlet
+20:16:15,129 INFO  [localhost-startStop-2][HookHotDeployListener:982] Hook for resources-importer-web was unregistered
+20:16:15,145 INFO  [localhost-startStop-2][PluginPackageUtil:1016] Reading plugin package for resources-importer-web
+20:16:15,240 INFO  [localhost-startStop-2][HotDeployEvent:145] Plugin opensocial-portlet requires marketplace-portlet
+20:16:15,240 INFO  [localhost-startStop-2][PortletHotDeployListener:525] Unregistering portlets for opensocial-portlet
+20:16:15,271 INFO  [localhost-startStop-2][PortletHotDeployListener:565] 4 portlets for opensocial-portlet were unregistered
+20:16:15,364 INFO  [localhost-startStop-2][HookHotDeployListener:982] Hook for opensocial-portlet was unregistered
+20:16:16,940 INFO  [localhost-startStop-2][PluginPackageUtil:1016] Reading plugin package for opensocial-portlet
+20:16:17,050 INFO  [localhost-startStop-2][HotDeployEvent:145] Plugin notifications-portlet requires marketplace-portlet
+20:16:17,050 INFO  [localhost-startStop-2][PortletHotDeployListener:525] Unregistering portlets for notifications-portlet
+20:16:17,050 INFO  [localhost-startStop-2][PortletHotDeployListener:565] 2 portlets for notifications-portlet were unregistered
+20:16:17,128 INFO  [localhost-startStop-2][HookHotDeployListener:982] Hook for notifications-portlet was unregistered
+20:16:17,457 INFO  [localhost-startStop-2][PluginPackageUtil:1016] Reading plugin package for notifications-portlet
+20:16:17,644 INFO  [localhost-startStop-2][PortletHotDeployListener:525] Unregistering portlets for marketplace-portlet
+20:16:17,660 INFO  [localhost-startStop-2][PortletHotDeployListener:565] 3 portlets for marketplace-portlet were unregistered
+20:16:17,660 INFO  [localhost-startStop-2][HookHotDeployListener:982] Hook for marketplace-portlet was unregistered
+20:16:17,972 INFO  [localhost-startStop-2][PluginPackageUtil:1016] Reading plugin package for marketplace-portlet
+20:16:18,175 INFO  [localhost-startStop-2][HotDeployEvent:145] Plugin kaleo-web requires marketplace-portlet
+20:16:18,175 INFO  [localhost-startStop-2][HookHotDeployListener:982] Hook for kaleo-web was unregistered
+20:16:18,738 INFO  [localhost-startStop-2][PluginPackageUtil:1016] Reading plugin package for kaleo-web
+20:16:18,863 INFO  [localhost-startStop-2][HotDeployEvent:145] Plugin calendar-portlet requires marketplace-portlet
+20:16:18,863 INFO  [localhost-startStop-2][SocialHotDeployListener:159] Social for calendar-portlet was unregistered
+20:16:18,863 INFO  [localhost-startStop-2][PortletHotDeployListener:525] Unregistering portlets for calendar-portlet
+20:16:18,894 INFO  [localhost-startStop-2][PortletHotDeployListener:560] 1 portlet for calendar-portlet was unregistered
+20:16:19,003 INFO  [localhost-startStop-2][HookHotDeployListener:982] Hook for calendar-portlet was unregistered
+20:16:19,519 INFO  [localhost-startStop-2][PluginPackageUtil:1016] Reading plugin package for calendar-portlet
+20:16:19,613 INFO  [localhost-startStop-2][HotDeployEvent:145] Plugin Rubisub-theme requires marketplace-portlet
+20:16:19,613 INFO  [localhost-startStop-2][ThemeHotDeployListener:140] Unregistering themes for Rubisub-theme
+20:16:19,659 INFO  [localhost-startStop-2][ThemeHotDeployListener:172] 1 theme for Rubisub-theme was unregistered
+20:16:19,659 INFO  [localhost-startStop-2][PluginPackageUtil:1016] Reading plugin package for Rubisub-theme

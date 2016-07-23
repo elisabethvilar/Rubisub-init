@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+#parse ($init)
+
+<html class="$root_css_class" dir="#language ("lang.dir")" lang="$w3c_language_id">
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+#set ($css_folder = "$theme_display.getPathThemeCss()")
+#if ( $layout.getFriendlyURL() == "/cursos")
+	<link rel="stylesheet" type="text/css" href="$css_folder/cursos.css" />
+#end
+<head>
+	<title>$the_title - $company_name</title>
+
+	<meta content="initial-scale=1.0, width=device-width" name="viewport" />
+
+	$theme.include($top_head_include)
+</head>
+
+<body class="$css_class">
+
+<a href="#main-content" id="skip-to-content">#language ("skip-to-content")</a>
+
+$theme.include($body_top_include)
+
+#dockbar()
+
+<div class="container-fluid" id="wrapper">
+	<header id="banner" role="banner">
+		<div id="heading">
+			<div class="topHome">
+				<img src="$themeDisplay.getPathThemeImages()/logo.png" />
+				<div>
+					<div class="nameTop">RUBISUB</div>
+					<div>ESCUELA DE BUCEO</div>
+				</div>
+				<img src="$themeDisplay.getPathThemeImages()/topImage2.png" />
+				<div class="redesSociales">
+					<a href="https://twitter.com/rubisub" target="_blank"><img src="$themeDisplay.getPathThemeImages()/redesSociales/twitter.png" /></a>
+					<a href="https://www.facebook.com/pages/Xtreme-DIVE-CLUB/553988297967990" target="_blank"><img src="$themeDisplay.getPathThemeImages()/redesSociales/fb.png" /></a>
+					<a href="https://www.padi.com/" target="_blank"><img src="$themeDisplay.getPathThemeImages()/redesSociales/padi.png" /></a>
+				</div>
+			</div>
+		</div>
+
+		#if ($has_navigation || $is_signed_in)
+			#parse ("$full_templates_path/navigation.vm")
+		#end
+	</header>
+
+	<div id="content">
+		<nav id="breadcrumbs">#breadcrumbs()</nav>
+
+		#if ($selectable)
+			$theme.include($content_include)
+		#else
+			$portletDisplay.recycle()
+
+			$portletDisplay.setTitle($the_title)
+
+			$theme.wrapPortlet("portlet.vm", $content_include)
+		#end
+	</div>
+
+	<footer id="footer" role="contentinfo">
+		<div class="row-fluid footer">
+			<div class="span4">RUBI SUB</div>
+			<div class="span4">TU ESCUELA DE BUCEO EN BARCELONA</div>
+			<div class="span4">
+				<div>DANI 690 631 911</div>
+				<div>JAVI 665 506 828</div>
+			</div>
+		</div>
+	</footer>
+</div>
+
+$theme.include($body_bottom_include)
+
+$theme.include($bottom_include)
+
+</body>
+
+</html>
